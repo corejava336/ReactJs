@@ -1,0 +1,23 @@
+.header {
+    position: fixed; /* Fixes the header at the top */
+    top: 0; /* Positions the header at the top */
+    left: 0; /* Aligns to the left */
+    right: 0; /* Aligns to the right */
+    background-color: palevioletred; /* Background color */
+    text-align: center; /* Center text */
+    color: black; /* Text color */
+    padding: 20px 0px; /* Top and bottom padding */
+    margin: 0; /* Remove margins */
+    font-weight: bold; /* Bold text */
+    font-size: 2em; /* Font size */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Box shadow for depth */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure the header is above other content */
+    
+}
+@media (max-width: 130px) {
+    .header{
+        font-size: 10px; /* Further reduce font size for very small screens */
+        padding: 5px; /* Further reduce padding */
+    }
+}

@@ -1,0 +1,20 @@
+.completedItems{
+    position:fixed;
+    bottom: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    width:100%;
+    background-color: palevioletred;
+    padding:10px;
+
+}
+.items{
+    margin:50px;
+}
+@media (max-width: 500px) {
+    .completedItems {
+        font-size: 1.2em; /* Smaller font size for completed items */
+        padding: 5px; /* Reduce padding */
+    }
+}

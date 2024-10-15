@@ -1,0 +1,34 @@
+.item {
+    max-width: 500px; /* Fixed width */
+    width: 100%; /* Allow to take full width of parent container */
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden; /* Hides any overflow */
+    word-wrap: break-word; /* Allows breaking words if they exceed the container width */
+   
+}
+
+.itemName {
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+}
+
+.line {
+    border: 1.5px solid lightblue;
+}
+
+.deleteButton {
+    float: right;
+    padding: 12px 20px;
+    border: none;
+    background-color: palevioletred;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
